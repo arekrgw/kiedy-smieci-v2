@@ -11,4 +11,4 @@ const garbageDateSchema = new mongoose.Schema({
   date: Date,
 });
 
-export const GarbageDate = mongoose.model("garbageregions", garbageDateSchema);
+export const GarbageDate = mongoose.model("garbagedates", garbageDateSchema);
