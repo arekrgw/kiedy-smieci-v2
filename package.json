@@ -1,12 +1,15 @@
 {
-  "name": "node-typescript",
+  "name": "kiedy-smieci-v2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "12.x"
+  },
   "scripts": {
     "start:dev": "nodemon",
     "build": "rimraf ./build && tsc",
-    "start": "npm run build && node build/index.js"
+    "start": "node build/index.js"
   },
   "keywords": [],
   "author": "",
