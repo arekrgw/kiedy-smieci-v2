@@ -14,7 +14,7 @@ Router.put(
     if (error) {
       return res.json({ error: error.details[0].message }).status(400);
     }
-    // * Region exists
+    // * Region exists?
     let responseRegion = await GarbageRegion.findOne({
       regionName: req.body.region.regionName,
     });
@@ -40,8 +40,7 @@ Router.put(
       });
     }
     console.log("Done");
-
-    // console.log(response);
+    // TODO: insert dates and create new types if needed
 
     res.status(200).json(req.body.city);
   }
