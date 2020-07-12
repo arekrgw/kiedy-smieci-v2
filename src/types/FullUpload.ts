@@ -1,17 +1,17 @@
 export interface UploadOutDate {
-  date: String;
-  type: String;
+  date: string;
+  type: string;
 }
 
 export interface UploadOutRegion {
-  regionName: String;
-  postalCode?: String;
-  hours?: String;
+  regionName: string;
+  postalCode?: string;
+  hours?: string;
 }
 
 export interface UploadOutCity {
-  cityName: String;
-  province?: String;
+  cityName: string;
+  province?: string;
 }
 
 export interface UploadObject {
