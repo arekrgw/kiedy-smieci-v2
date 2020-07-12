@@ -13,8 +13,9 @@ export const fullSchema = Joi.object({
   dates: Joi.array().items(
     Joi.object({
       date: Joi.string()
-        .pattern(/^20[2-9]\d-(0?[1-9]|1[012])\-(0?[1-9]|[12][0-9]|3[01])$/)
-        .required(),
+        // .pattern(/^20[2-9]\d-(0?[1-9]|1[012])\-(0?[1-9]|[12][0-9]|3[01])$/)
+        .required()
+        .isoDate(),
       type: Joi.string().required(),
     })
   ),

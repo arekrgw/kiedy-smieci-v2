@@ -5,6 +5,7 @@ import { UploadObject } from "../types/FullUpload";
 import { GarbageRegion } from "../models/garbageRegion";
 import { GarbageCities } from "../models/garbageCity";
 import { GarbageType } from "../models/garbageType";
+import { GarbageDate } from "../models/garbageDate";
 import moment from "moment";
 const Router = express.Router();
 
@@ -13,6 +14,7 @@ Router.put("/full", async (req: Request, res: Response) => {
   if (error) {
     return res.json({ error: error.details[0].message }).status(400);
   }
+  // await GarbageDate.deleteMany({ garbageRegion: "5f09c7d082b2344364834d8e" });
   const data: UploadObject = req.body;
   // * Region exists?
   let responseRegion = await GarbageRegion.findOne({
@@ -55,18 +57,23 @@ Router.put("/full", async (req: Request, res: Response) => {
   );
 
   const uploadDatesArray = data.dates.map((el) => {
+    console.log(el.date);
+
     return {
       garbageType: typesIds[el.type],
       garbageRegion: responseRegion!._id,
-      date: moment(el.date).format(),
+      date: moment(el.date).toISOString(true),
     };
   });
 
-  // TODO: CHECK IF DATES ARE CORRECT
+  const response = await GarbageDate.insertMany(uploadDatesArray);
 
+  // ! EXCEPTION HANDLING
   console.log("Done");
-  console.log(uploadDatesArray);
-  res.status(200).json(possibleNewTypes);
+  // console.log(moment("2020-12-3").format());
+
+  // console.log(uploadDatesArray);
+  res.status(200).json({ success: true });
 });
 
 export default Router;
