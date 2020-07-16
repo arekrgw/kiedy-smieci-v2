@@ -4,11 +4,14 @@ import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import MainRouter from "./routes/mainRouter";
 import UploadRouter from "./routes/uploadRouter";
+
+import {jsonValidate} from './validators/jsonValidator'
 dotenv.config();
 const port = process.env.PORT || 3000;
 const app = express();
 
 app.use(bodyParser.json());
+app.use(jsonValidate)
 app.use("/", MainRouter);
 app.use("/upload", UploadRouter);
 
