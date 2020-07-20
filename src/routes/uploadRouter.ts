@@ -1,4 +1,4 @@
-import express, { Response, Request, response } from "express";
+import express, { Response, Request } from "express";
 import { fullSchema } from "../validators/uploadFullValidator";
 import { UploadObject } from "../types/FullUpload";
 
@@ -8,18 +8,21 @@ import { GarbageType } from "../models/garbageType";
 import { GarbageDate } from "../models/garbageDate";
 import moment from "moment";
 
-import * as errMsg from '../errorMessaging'
+import * as errMsg from "../errorMessaging";
+const { respondWithError } = errMsg;
 
 const Router = express.Router();
 
 Router.put("/full", async (req: Request, res: Response) => {
   try {
-
     const { error } = fullSchema.validate(req.body);
     if (error) {
-      return res.json({ error: error.details[0].message }).status(400);
+      return respondWithError(
+        res,
+        errMsg.UPLOAD_ERROR_JSON_STRUCTURE,
+        error.details[0].message
+      );
     }
-    // await GarbageDate.deleteMany({ garbageRegion: "5f09c7d082b2344364834d8e" });
     const data: UploadObject = req.body;
     // * Region exists?
     let responseRegion = await GarbageRegion.findOne({
@@ -27,13 +30,13 @@ Router.put("/full", async (req: Request, res: Response) => {
     });
     if (!responseRegion) {
       if (!data.region.postalCode)
-        return res.status(500).json({ error: "New region data error" });
+        return respondWithError(res, errMsg.UPLOAD_ERROR_REGION);
       let responseCity = await GarbageCities.findOne({
         cityName: data.city.cityName,
       });
       if (!responseCity) {
         if (!data.city.province)
-          return res.status(500).json({ error: "New city data error" });
+          return respondWithError(res, errMsg.UPLOAD_ERROR_CITY);
         responseCity = await GarbageCities.create({
           cityName: data.city.cityName,
           province: data.city.province,
@@ -62,8 +65,6 @@ Router.put("/full", async (req: Request, res: Response) => {
     );
 
     const uploadDatesArray = data.dates.map((el) => {
-      console.log(el.date);
-
       return {
         garbageType: typesIds[el.type],
         garbageRegion: responseRegion!._id,
@@ -72,10 +73,9 @@ Router.put("/full", async (req: Request, res: Response) => {
     });
 
     await GarbageDate.insertMany(uploadDatesArray);
-    res.status(200).json({ success: true });
-  }
-  catch(error){
-    res.status(400).json({error: errMsg.UPLOAD_ERROR_DEFAULT})
+    res.status(201).json({ success: true, regionId: responseRegion._id });
+  } catch (error) {
+    respondWithError(res, errMsg.UPLOAD_ERROR_DEFAULT);
   }
 });
 

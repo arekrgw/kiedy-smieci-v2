@@ -1,3 +1,3 @@
 export interface Error {
-    status?: number
+  status?: number;
 }
