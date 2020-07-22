@@ -26,6 +26,11 @@ export const UPLOAD_ERROR_REGION: ErrorMessage = {
   statusCode: 400,
 };
 
+export const UPLOAD_ERROR_TOKEN_INVALID = {
+  msg: "There are no auth token in headers or it is wrong",
+  statusCode: 403,
+};
+
 export const respondWithError = (
   res: Response,
   error: ErrorMessage,
