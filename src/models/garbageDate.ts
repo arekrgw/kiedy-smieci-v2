@@ -9,6 +9,7 @@ const garbageDateSchema = new mongoose.Schema({
     ref: GarbageRegion,
   },
   date: String,
+  dateObjectHash: { type: String, unique: true },
 });
 
 export const GarbageDate = mongoose.model("garbagedates", garbageDateSchema);

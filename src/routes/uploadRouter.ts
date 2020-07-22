@@ -8,7 +8,8 @@ import { GarbageType } from "../models/garbageType";
 import { GarbageDate } from "../models/garbageDate";
 import { uploadTokenMiddleware } from "../validators/uploadTokenMiddleware";
 import moment from "moment";
-
+import hash from "object-hash";
+import { Document } from "mongoose";
 import * as errMsg from "../errorMessaging";
 const { respondWithError } = errMsg;
 
@@ -18,7 +19,7 @@ Router.put(
   "/full",
   uploadTokenMiddleware,
   async (req: Request, res: Response) => {
-    console.log(process.env.USE_UPLOAD_TOKEN);
+    let responseRegion: Document | null;
     try {
       const { error } = fullSchema.validate(req.body);
       if (error) {
@@ -30,7 +31,7 @@ Router.put(
       }
       const data: UploadObject = req.body;
       // * Region exists?
-      let responseRegion = await GarbageRegion.findOne({
+      responseRegion = await GarbageRegion.findOne({
         regionName: data.region.regionName,
       });
       if (!responseRegion) {
@@ -70,16 +71,34 @@ Router.put(
       );
 
       const uploadDatesArray = data.dates.map((el) => {
-        return {
-          garbageType: typesIds[el.type],
-          garbageRegion: responseRegion!._id,
+        const dateObj = {
+          garbageType: `${typesIds[el.type].toString()}`,
+          garbageRegion: `${responseRegion!._id}`,
           date: moment(el.date).toISOString(true),
+        };
+
+        const dateObjHash = hash.sha1(dateObj);
+        return {
+          ...dateObj,
+          dateObjectHash: dateObjHash,
         };
       });
 
-      // await GarbageDate.insertMany(uploadDatesArray);
+      await GarbageDate.insertMany(uploadDatesArray, {
+        ordered: false,
+      });
+
       res.status(201).json({ success: true, regionId: responseRegion._id });
     } catch (error) {
+      if (error.code == 11000) {
+        return res
+          .status(201)
+          .json({
+            success: true,
+            regionId: responseRegion!._id,
+            additionalInfo: "Some dates has already been added",
+          });
+      }
       respondWithError(res, errMsg.UPLOAD_ERROR_DEFAULT);
     }
   }
