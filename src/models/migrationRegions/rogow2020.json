@@ -1,0 +1,113 @@
+{
+  "city": {
+    "cityName": "Rogów",
+    "province": "łódzkie"
+  },
+  "region": {
+    "regionName": "Rogów",
+    "postalCode": "95-063",
+    "hours": "6-15"
+  },
+  "dates": [
+    {
+      "date": "2020-08-03",
+      "type": "bio"
+    },
+    {
+      "date": "2020-08-03",
+      "type": "papier"
+    },
+    {
+      "date": "2020-08-06",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-08-17",
+      "type": "bio"
+    },
+    {
+      "date": "2020-08-17",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2020-08-20",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-09-03",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-09-07",
+      "type": "bio"
+    },
+    {
+      "date": "2020-09-07",
+      "type": "papier"
+    },
+    {
+      "date": "2020-09-21",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2020-10-01",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-10-05",
+      "type": "bio"
+    },
+    {
+      "date": "2020-10-05",
+      "type": "papier"
+    },
+    {
+      "date": "2020-10-19",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2020-10-28",
+      "type": "szkło"
+    },
+    {
+      "date": "2020-11-02",
+      "type": "bio"
+    },
+    {
+      "date": "2020-11-02",
+      "type": "papier"
+    },
+    {
+      "date": "2020-11-05",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-11-16",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2020-12-03",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-12-07",
+      "type": "bio"
+    },
+    {
+      "date": "2020-12-07",
+      "type": "papier"
+    },
+    {
+      "date": "2020-12-17",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-12-21",
+      "type": "bio"
+    },
+    {
+      "date": "2020-12-21",
+      "type": "tworzywa sztuczne"
+    }
+  ]
+}

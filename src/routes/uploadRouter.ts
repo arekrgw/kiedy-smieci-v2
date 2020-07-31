@@ -21,12 +21,12 @@ Router.put(
   async (req: Request, res: Response) => {
     let responseRegion: Document | null;
     try {
-      const { error } = fullSchema.validate(req.body);
+      const {error} = fullSchema.validate(req.body);
       if (error) {
         return respondWithError(
-          res,
-          errMsg.UPLOAD_ERROR_JSON_STRUCTURE,
-          error.details[0].message
+            res,
+            errMsg.UPLOAD_ERROR_JSON_STRUCTURE,
+            error.details[0].message
         );
       }
       const data: UploadObject = req.body;
@@ -61,13 +61,13 @@ Router.put(
       });
       let typesIds: { [key: string]: string } = {};
       await Promise.all(
-        Array.from(possibleNewTypes).map(async (el) => {
-          let response = await GarbageType.findOne({ type: el });
-          if (!response) {
-            response = await GarbageType.create({ type: el });
-          }
-          typesIds[el] = response._id;
-        })
+          Array.from(possibleNewTypes).map(async (el) => {
+            let response = await GarbageType.findOne({type: el});
+            if (!response) {
+              response = await GarbageType.create({type: el});
+            }
+            typesIds[el] = response._id;
+          })
       );
 
       const uploadDatesArray = data.dates.map((el) => {
@@ -88,7 +88,7 @@ Router.put(
         ordered: false,
       });
 
-      res.status(201).json({ success: true, regionId: responseRegion._id });
+      res.status(201).json({success: true, regionId: responseRegion._id});
     } catch (error) {
       if (error.code == 11000) {
         return res

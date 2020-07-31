@@ -1,0 +1,133 @@
+{
+  "city": {
+    "cityName": "Rogów",
+    "province": "łódzkie"
+  },
+  "region": {
+    "regionName": "Rogów - Parcela, Romanówek, Wągry, Nowe Wągry, Popień, Rogów ul. Elewator",
+    "postalCode": "95-063",
+    "hours": "6-15"
+  },
+  "dates": [
+    {
+      "date": "2020-12-03",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-07-08",
+      "type": "bio"
+    },
+    {
+      "date": "2020-07-08",
+      "type": "papier"
+    },
+    {
+      "date": "2020-07-17",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-07-22",
+      "type": "bio"
+    },
+    {
+      "date": "2020-08-07",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-08-12",
+      "type": "bio"
+    },
+    {
+      "date": "2020-08-12",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2020-08-12",
+      "type": "papier"
+    },
+    {
+      "date": "2020-08-21",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-08-26",
+      "type": "bio"
+    },
+    {
+      "date": "2020-08-31",
+      "type": "szkło"
+    },
+    {
+      "date": "2020-09-04",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-09-09",
+      "type": "bio"
+    },
+    {
+      "date": "2020-09-09",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2020-09-09",
+      "type": "papier"
+    },
+    {
+      "date": "2020-10-02",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-10-14",
+      "type": "bio"
+    },
+    {
+      "date": "2020-10-14",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2020-10-14",
+      "type": "papier"
+    },
+    {
+      "date": "2020-11-06",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-11-18",
+      "type": "bio"
+    },
+    {
+      "date": "2020-11-18",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2020-11-18",
+      "type": "papier"
+    },
+    {
+      "date": "2020-11-30",
+      "type": "szkło"
+    },
+    {
+      "date": "2020-12-04",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2020-12-09",
+      "type": "bio"
+    },
+    {
+      "date": "2020-12-09",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2020-12-09",
+      "type": "papier"
+    },
+    {
+      "date": "2020-12-18",
+      "type": "zmieszane"
+    }
+  ]
+}
