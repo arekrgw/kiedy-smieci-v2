@@ -1,0 +1,221 @@
+{
+  "city": {
+    "cityName": "Kamionka",
+    "province": "wielkopolskie"
+  },
+  "region": {
+    "regionName": "Lubasz",
+    "postalCode": "64-720",
+    "hours": "6-15"
+  },
+  "dates": [
+    {
+        "date": "2020-08-03",
+        "type": "zmieszane"
+    },
+    {
+        "date": "2020-08-17",
+        "type": "zmieszane"
+    },
+    {
+        "date": "2020-08-31",
+        "type": "zmieszane"
+    },
+    {
+        "date": "2020-08-03",
+        "type": "tworzywa sztuczne"
+    },
+    {
+        "date": "2020-08-17",
+        "type": "tworzywa sztuczne"
+    },
+    {
+        "date": "2020-08-31",
+        "type": "tworzywa sztuczne"
+    },
+    {
+        "date": "2020-08-03",
+        "type": "bio"
+    },
+    {
+        "date": "2020-08-10",
+        "type": "bio"
+    },
+    {
+        "date": "2020-08-17",
+        "type": "bio"
+    },
+    {
+        "date": "2020-08-24",
+        "type": "bio"
+    },
+    {
+        "date": "2020-08-31",
+        "type": "bio"
+    },
+    {
+        "date": "2020-08-20",
+        "type": "papier"
+    },
+    {
+        "date": "2020-08-13",
+        "type": "szkło"
+    },
+    {
+        "date": "2020-09-14",
+        "type": "zmieszane"
+    },
+    {
+        "date": "2020-09-28",
+        "type": "zmieszane"
+    },
+    {
+        "date": "2020-09-14",
+        "type": "tworzywa sztuczne"
+    },
+    {
+        "date": "2020-09-28",
+        "type": "tworzywa sztuczne"
+    },
+    {
+        "date": "2020-09-07",
+        "type": "bio"
+    },
+    {
+        "date": "2020-09-14",
+        "type": "bio"
+    },
+    {
+        "date": "2020-09-21",
+        "type": "bio"
+    },
+    {
+        "date": "2020-09-28",
+        "type": "bio"
+    },
+    {
+        "date": "2020-09-17",
+        "type": "papier"
+    },
+    {
+        "date": "2020-09-10",
+        "type": "szkło"
+    },
+    {
+        "date": "2020-10-12",
+        "type": "zmieszane"
+    },
+    {
+        "date": "2020-10-26",
+        "type": "zmieszane"
+    },
+    {
+        "date": "2020-10-12",
+        "type": "tworzywa sztuczne"
+    },
+    {
+        "date": "2020-10-26",
+        "type": "tworzywa sztuczne"
+    },
+    {
+        "date": "2020-10-05",
+        "type": "bio"
+    },
+    {
+        "date": "2020-10-12",
+        "type": "bio"
+    },
+    {
+        "date": "2020-10-19",
+        "type": "bio"
+    },
+    {
+        "date": "2020-10-26",
+        "type": "bio"
+    },
+    {
+        "date": "2020-10-15",
+        "type": "papier"
+    },
+    {
+        "date": "2020-10-08",
+        "type": "szkło"
+    },
+    {
+        "date": "2020-11-09",
+        "type": "zmieszane"
+    },
+    {
+        "date": "2020-11-23",
+        "type": "zmieszane"
+    },
+    {
+        "date": "2020-11-09",
+        "type": "tworzywa sztuczne"
+    },
+    {
+        "date": "2020-11-23",
+        "type": "tworzywa sztuczne"
+    },
+    {
+        "date": "2020-11-02",
+        "type": "bio"
+    },
+    {
+        "date": "2020-11-09",
+        "type": "bio"
+    },
+    {
+        "date": "2020-11-16",
+        "type": "bio"
+    },
+    {
+        "date": "2020-11-23",
+        "type": "bio"
+    },
+    {
+        "date": "2020-11-30",
+        "type": "bio"
+    },
+    {
+        "date": "2020-11-19",
+        "type": "papier"
+    },
+    {
+        "date": "2020-11-05",
+        "type": "szkło"
+    },
+    {
+        "date": "2020-12-07",
+        "type": "zmieszane"
+    },
+    {
+        "date": "2020-12-21",
+        "type": "zmieszane"
+    },
+    {
+        "date": "2020-12-07",
+        "type": "tworzywa sztuczne"
+    },
+    {
+        "date": "2020-12-21",
+        "type": "tworzywa sztuczne"
+    },
+    {
+        "date": "2020-12-14",
+        "type": "bio"
+    },
+    {
+        "date": "2020-12-28",
+        "type": "bio"
+    },
+    {
+        "date": "2020-12-10",
+        "type": "papier"
+    },
+    {
+        "date": "2020-12-03",
+        "type": "szkło"
+    }
+  ]
+}
