@@ -40,7 +40,10 @@ Router.get("/dates/:id", async (req: Request, res: Response) => {
       "-__v"
     )
       .populate("garbageType")
-      .populate("garbageRegion", "-postalCode");
+      .populate({
+        path: "garbageRegion",
+        populate: { path: "city" },
+      });
     res.json(dates).status(200);
   } catch (err) {
     console.log(err);
