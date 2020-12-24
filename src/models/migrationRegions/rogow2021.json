@@ -1,0 +1,277 @@
+{
+  "city": {
+    "cityName": "Rogów",
+    "province": "łódzkie"
+  },
+  "region": {
+    "regionName": "Rogów",
+    "postalCode": "95-063",
+    "hours": "6-15"
+  },
+  "dates": [
+    {
+      "date": "2021-01-18",
+      "type": "papier"
+    },
+    {
+      "date": "2021-01-18",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-01-18",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-01-25",
+      "type": "bio"
+    },
+    {
+      "date": "2021-01-25",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-02-15",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-02-15",
+      "type": "papier"
+    },
+    {
+      "date": "2021-02-22",
+      "type": "bio"
+    },
+    {
+      "date": "2021-02-22",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-03-08",
+      "type": "pszok"
+    },
+    {
+      "date": "2021-03-15",
+      "type": "papier"
+    },
+    {
+      "date": "2021-03-15",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-03-22",
+      "type": "bio"
+    },
+    {
+      "date": "2021-03-22",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-04-12",
+      "type": "bio"
+    },
+    {
+      "date": "2021-04-12",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-04-26",
+      "type": "bio"
+    },
+    {
+      "date": "2021-04-26",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-04-19",
+      "type": "papier"
+    },
+    {
+      "date": "2021-04-19",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-04-19",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-05-10",
+      "type": "bio"
+    },
+    {
+      "date": "2021-05-10",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-05-24",
+      "type": "bio"
+    },
+    {
+      "date": "2021-05-24",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-05-17",
+      "type": "papier"
+    },
+    {
+      "date": "2021-05-17",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-06-07",
+      "type": "bio"
+    },
+    {
+      "date": "2021-06-07",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-06-21",
+      "type": "bio"
+    },
+    {
+      "date": "2021-06-21",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-06-14",
+      "type": "papier"
+    },
+    {
+      "date": "2021-06-14",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-07-05",
+      "type": "bio"
+    },
+    {
+      "date": "2021-07-05",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-07-19",
+      "type": "bio"
+    },
+    {
+      "date": "2021-07-19",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-07-12",
+      "type": "papier"
+    },
+    {
+      "date": "2021-07-12",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-07-12",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-08-02",
+      "type": "bio"
+    },
+    {
+      "date": "2021-08-02",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-08-16",
+      "type": "bio"
+    },
+    {
+      "date": "2021-08-16",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-08-09",
+      "type": "papier"
+    },
+    {
+      "date": "2021-08-09",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-09-06",
+      "type": "bio"
+    },
+    {
+      "date": "2021-09-06",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-09-20",
+      "type": "bio"
+    },
+    {
+      "date": "2021-09-20",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-09-13",
+      "type": "papier"
+    },
+    {
+      "date": "2021-09-13",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-09-27",
+      "type": "pszok"
+    },
+    {
+      "date": "2021-10-04",
+      "type": "bio"
+    },
+    {
+      "date": "2021-10-04",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-10-11",
+      "type": "papier"
+    },
+    {
+      "date": "2021-10-11",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-10-11",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-11-08",
+      "type": "bio"
+    },
+    {
+      "date": "2021-11-08",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-11-15",
+      "type": "papier"
+    },
+    {
+      "date": "2021-11-15",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-12-06",
+      "type": "bio"
+    },
+    {
+      "date": "2021-12-06",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-12-13",
+      "type": "papier"
+    },
+    {
+      "date": "2021-12-13",
+      "type": "tworzywa sztuczne"
+    }
+  ]
+}
