@@ -1,0 +1,242 @@
+{
+  "city": {
+    "cityName": "Kamionka",
+    "province": "wielkopolskie"
+  },
+  "region": {
+    "regionName": "Lubasz",
+    "postalCode": "64-720",
+    "hours": "6-15"
+  },
+  "dates": [
+    {
+      "date": "2021-01-04",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-01-18",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-01-04",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-01-18",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-01-11",
+      "type": "bio"
+    },
+    {
+      "date": "2021-01-25",
+      "type": "bio"
+    },
+    {
+      "date": "2021-01-14",
+      "type": "papier"
+    },
+    {
+      "date": "2021-01-14",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-02-01",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-02-15",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-02-01",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-02-15",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-02-08",
+      "type": "bio"
+    },
+    {
+      "date": "2021-02-22",
+      "type": "bio"
+    },
+    {
+      "date": "2021-02-11",
+      "type": "papier"
+    },
+    {
+      "date": "2021-02-11",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-03-01",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-03-15",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-03-29",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-03-01",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-03-15",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-03-29",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-03-08",
+      "type": "bio"
+    },
+    {
+      "date": "2021-03-22",
+      "type": "bio"
+    },
+    {
+      "date": "2021-03-11",
+      "type": "papier"
+    },
+	{
+      "date": "2021-03-11",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-04-12",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-04-26",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-04-12",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-04-26",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-04-06",
+      "type": "bio"
+    },
+    {
+      "date": "2021-04-12",
+      "type": "bio"
+    },
+    {
+      "date": "2021-04-19",
+      "type": "bio"
+    },
+    {
+      "date": "2021-04-26",
+      "type": "bio"
+    },
+    {
+      "date": "2021-04-22",
+      "type": "papier"
+    },
+    {
+      "date": "2021-04-21",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-05-10",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-05-24",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-05-10",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-05-24",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-05-04",
+      "type": "bio"
+    },
+    {
+      "date": "2021-05-10",
+      "type": "bio"
+    },
+    {
+      "date": "2021-05-17",
+      "type": "bio"
+    },
+    {
+      "date": "2021-05-24",
+      "type": "bio"
+    },
+    {
+      "date": "2021-05-31",
+      "type": "bio"
+    },
+    {
+      "date": "2021-05-19",
+      "type": "papier"
+    },
+    {
+      "date": "2021-05-13",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-06-07",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-06-21",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-06-07",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-06-21",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-06-07",
+      "type": "bio"
+    },
+    {
+      "date": "2021-06-14",
+      "type": "bio"
+    },
+    {
+      "date": "2021-06-21",
+      "type": "bio"
+    },
+	{
+      "date": "2021-06-28",
+      "type": "bio"
+    },
+	{
+      "date": "2021-06-18",
+      "type": "papier"
+    },
+	{
+      "date": "2021-06-16",
+      "type": "szkło"
+    }
+]
+
+}
