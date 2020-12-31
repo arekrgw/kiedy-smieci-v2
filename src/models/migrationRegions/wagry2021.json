@@ -1,0 +1,277 @@
+{
+  "city": {
+    "cityName": "Rogów",
+    "province": "łódzkie"
+  },
+  "region": {
+    "regionName": "Rogów - Parcela, Romanówek, Wągry, Nowe Wągry, Popień, Rogów ul. Elewator",
+    "postalCode": "95-063",
+    "hours": "6-15"
+  },
+  "dates": [
+    {
+      "date": "2021-01-21",
+      "type": "papier"
+    },
+    {
+      "date": "2021-01-21",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-01-21",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-04-22",
+      "type": "papier"
+    },
+    {
+      "date": "2021-04-22",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-04-22",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-07-15",
+      "type": "papier"
+    },
+    {
+      "date": "2021-07-15",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-07-15",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-10-14",
+      "type": "papier"
+    },
+    {
+      "date": "2021-10-14",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-10-14",
+      "type": "szkło"
+    },
+    {
+      "date": "2021-01-28",
+      "type": "bio"
+    },
+    {
+      "date": "2021-01-28",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-02-25",
+      "type": "bio"
+    },
+    {
+      "date": "2021-02-25",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-03-25",
+      "type": "bio"
+    },
+    {
+      "date": "2021-03-25",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-04-15",
+      "type": "bio"
+    },
+    {
+      "date": "2021-04-15",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-04-29",
+      "type": "bio"
+    },
+    {
+      "date": "2021-04-29",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-05-13",
+      "type": "bio"
+    },
+    {
+      "date": "2021-05-13",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-05-27",
+      "type": "bio"
+    },
+    {
+      "date": "2021-05-27",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-06-10",
+      "type": "bio"
+    },
+    {
+      "date": "2021-06-10",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-06-24",
+      "type": "bio"
+    },
+    {
+      "date": "2021-06-24",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-07-08",
+      "type": "bio"
+    },
+    {
+      "date": "2021-07-08",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-07-22",
+      "type": "bio"
+    },
+    {
+      "date": "2021-07-22",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-08-05",
+      "type": "bio"
+    },
+    {
+      "date": "2021-08-05",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-08-19",
+      "type": "bio"
+    },
+    {
+      "date": "2021-08-19",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-09-09",
+      "type": "bio"
+    },
+    {
+      "date": "2021-09-09",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-09-23",
+      "type": "bio"
+    },
+    {
+      "date": "2021-09-23",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-10-07",
+      "type": "bio"
+    },
+    {
+      "date": "2021-10-07",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-11-13",
+      "type": "bio"
+    },
+    {
+      "date": "2021-11-13",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-12-09",
+      "type": "bio"
+    },
+    {
+      "date": "2021-12-09",
+      "type": "zmieszane"
+    },
+    {
+      "date": "2021-02-18",
+      "type": "papier"
+    },
+    {
+      "date": "2021-02-18",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-03-18",
+      "type": "papier"
+    },
+    {
+      "date": "2021-03-18",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-05-20",
+      "type": "papier"
+    },
+    {
+      "date": "2021-05-20",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-06-17",
+      "type": "papier"
+    },
+    {
+      "date": "2021-06-17",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-08-12",
+      "type": "papier"
+    },
+    {
+      "date": "2021-08-12",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-09-16",
+      "type": "papier"
+    },
+    {
+      "date": "2021-09-16",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-11-18",
+      "type": "papier"
+    },
+    {
+      "date": "2021-11-18",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-12-16",
+      "type": "papier"
+    },
+    {
+      "date": "2021-12-16",
+      "type": "tworzywa sztuczne"
+    },
+    {
+      "date": "2021-03-11",
+      "type": "pszok"
+    },
+    {
+      "date": "2021-09-30",
+      "type": "pszok"
+    }
+  ]
+}

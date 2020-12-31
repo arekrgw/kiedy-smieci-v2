@@ -1,0 +1,173 @@
+{
+  "city": {
+    "cityName": "Grabówka",
+    "province": "podlaskie"
+  },
+  "region": {
+    "regionName": "Grabówka",
+    "postalCode": "15-523",
+    "hours": "6-15"
+  },
+  "dates": [
+    {
+      "date": "2021-01-05",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-01-19",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-02-02",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-02-16",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-03-02",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-03-16",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-03-30",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-04-13",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-04-27",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-05-11",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-05-25",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-06-08",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-06-22",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-07-06",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-07-20",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-08-03",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-08-17",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-08-31",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-09-14",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-09-28",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-10-12",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-10-26",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-11-09",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-11-23",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-12-07",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-12-21",
+      "type": "zmieszane i bio"
+    },
+    {
+      "date": "2021-01-07",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-02-04",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-03-04",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-04-01",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-05-06",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-06-05",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-07-01",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-08-05",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-09-02",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-10-07",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-11-04",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-12-02",
+      "type": "segregowane"
+    },
+    {
+      "date": "2021-05-12",
+      "type": "wielkogabarytowe"
+    },
+    {
+      "date": "2021-09-08",
+      "type": "wielkogabarytowe"
+    }
+  ]
+}
